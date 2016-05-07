@@ -1,0 +1,171 @@
+/*
+* main.css
+* created by jiangdi
+* 2015/6/4
+*
+*/
+/*-----------reset-------------*/
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*----------com------------*/
+body {
+	font-family: 'Microsoft Yahei';
+	font-size: 12px;
+}
+.arrow-right {
+	display: block;
+	/*float: left;*/
+	width: 0;
+	height: 0;
+	border-left: 4px solid #000;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	margin-top: -4px;
+}
+/*-------------header-------------*/
+#header {
+    width: 100%;
+    height: 28px;
+    background-color: #00A2CA;
+    min-width: 1200px;
+    font-size: 12px;
+}
+#header .container {
+	width: 1200px;
+	margin: 0 auto;
+	height: 28px;
+	overflow: hidden;
+}
+#header a {
+	color: #fff;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#header .login-box {
+	height: 28px;
+	line-height: 28px;
+}
+/*-------------banner-------------*/
+#banner {
+	width: 100%;
+	border-bottom: 1px solid #DFE3E6;
+}
+.banner-name {
+	width: 180px;
+	height: 25px;
+	border-left: 4px solid #00A2CA;
+	line-height: 25px;
+	float: left;
+	margin-top: 7px;
+}
+#banner .container {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.banner-top {
+	overflow: hidden;
+	margin: 15px 0;
+}
+.banner-name a {
+	color: #00a2ca;
+	font-size: 17px;
+	padding-left: 10px;
+	font-weight: bolder;
+}
+#banner .search-box {
+	width: 546px;
+	height: 36px;
+	border: 2px solid #00A2CA;
+	float: left;
+	margin-left: 50px;
+}
+#banner .search-box input {
+	height: 36px;
+	width: 490px;
+	border: none;
+	float: left;
+	padding-left: 10px;
+}
+#banner .search-box a {
+	display: block;
+	width: 46px;
+	height: 36px;
+	background-color: #00A2CA;
+	float: left;
+}
+.banner-classify {
+	width: 160px;
+	height: 40px;
+	background-color: #00A2CA;
+	line-height: 40px;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+
+/*-------------content-------------*/
+#content .container {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#content .slideBar {
+	background-color: #EDF0F2;
+	border-right: 1px solid #DFE3E6;
+	width: 169px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	height: 800px;
+	padding-left: 10px;
+	position: relative;
+	z-index: 3;
+}
+#content .slideBar h3 {
+	color: #ccc;
+}
+#content .slideBar ul {
+	position: absolute;
+	list-style: none;
+	width: 159px;
+	border-right: 1px solid #DFE3E6;
+	padding-left: 10px;
+	background-color: #EDF0F2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+#content .slideBar ul li {
+	position: relative;
+	width: 159px;
+	height: 25px;
+	line-height: 25px;
+	padding-top: 10px;
+	cursor: pointer;
+}
+#content .slideBar ul a {
+	color: #000;
+}
+#content .slideBar ul a:hover {
+	color: #00a2ca;
+}
+#content .slideBar ul li:hover {
+ 	color: #00A2CA;
+ }
+#content .slideBar ul li:hover span:last-child {
+ 	border-left-color: #00A2CA;
+ }
